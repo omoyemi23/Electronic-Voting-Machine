@@ -109,10 +109,10 @@ void setup()
     delay(2000);
     lcd.clear();
     delay(50);
-    lcd.print("Kayode Elijah");
+    lcd.print("#learn2build");
     lcd.setCursor(0,1);
     delay(50);
-    lcd.print("Afeni Bisoye");
+    lcd.print("project");
     delay(2000);
  
   if(EEPROM.read(0) == 0xff)
